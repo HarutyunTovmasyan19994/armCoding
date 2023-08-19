@@ -1,0 +1,25 @@
+.leftMenu{
+    width: 150px;
+    height: 100vh;
+    background-color: #A99E9E;
+     /*transform: translateX(-100%);*/
+    transition: all 0.4s;
+    z-index: 15;
+    position: absolute;
+}
+.leftMenu1{
+    transform: translateX(0%);
+}
+.leftMenuUl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.leftMenuUl li{
+    padding: 10px;
+    border-top: 1px solid #eee;
+    width: 100%;
+
+}
